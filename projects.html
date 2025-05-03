@@ -3,7 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Frontend Developer</title>
   </head>
-  <body></body>
+  <body style="width: 90%; margin: 20px auto">
+    <!-- header -->
+    <header
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 30px;
+      "
+    >
+      <div style="display: flex; align-items: center; gap: 15px">
+        <img src="Assets/illustrator-2.png" alt="Logo" style="width: 60px" />
+        <h3 style="font-size: 26px; margin: 0">Name</h3>
+      </div>
+      <!-- navbar -->
+      <nav>
+        <ul
+          style="
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            font-weight: 600;
+          "
+        >
+          <li>
+            <a href="index.html" style="text-decoration: none; color: black"
+              >Home</a
+            >
+          </li>
+          <li>/</li>
+          <li>
+            <a href="projects.html" style="text-decoration: none; color: black"
+              >Projects</a
+            >
+          </li>
+          <li>/</li>
+          <li>
+            <a href="articles.html" style="text-decoration: none; color: black"
+              >Articles</a
+            >
+          </li>
+          <li>/</li>
+          <li>
+            <a href="contact.html" style="text-decoration: none; color: black"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main style="margin-top: 50px">
+      <!-- table data -->
+      <section
+        style="
+          display: flex;
+          justify-content: space-between;
+          margin-top: 50px;
+          border: 3px solid black;
+        "
+      >
+        <!-- Projects -->
+        <div
+          style="width: 30%; padding: 0px 10px; border-right: 2px solid black"
+        >
+          <h3>Projects</h3>
+          <ul style="list-style: none; padding: 0">
+            <li style="border-bottom: 2px solid black; padding: 10px">
+              HTML Only Portfolio
+            </li>
+            <li style="border-bottom: 2px solid black; padding: 10px">
+              Calculator
+            </li>
+            <li style="border-bottom: 2px solid black; padding: 10px">
+              Quiz App
+            </li>
+            <li style="border-bottom: 2px solid black; padding: 10px">
+              Countdown Timer
+            </li>
+            <li style="padding: 10px">Product Upcoming Page</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer style="text-align: center; margin-top: 60px">
+        <p>© all rights reserved 2025</p>
+      </footer>
+    </main>
+  </body>
 </html>
